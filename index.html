@@ -3,8 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kana Audio</title>
-<meta name="robots" content="noindex">
+<title>Hiragana & Katakana Audio Chart – Native Japanese Pronunciation</title>
+<meta name="description" content="Free hiragana and katakana audio chart recorded by a native Japanese speaker. Tap any kana to hear it with a picture word: 46 basic sounds, dakuten and handakuten, and combined sounds (youon).">
+<link rel="canonical" href="https://yunomon-cloud.github.io/kana-audio/">
+<meta property="og:title" content="Hiragana & Katakana Audio Chart – Native Japanese Pronunciation">
+<meta property="og:description" content="Tap any kana to hear a native Japanese speaker say it, followed by a picture word.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yunomon-cloud.github.io/kana-audio/">
 <style>
 :root{--bg:#fbf8f2;--ink:#2b3a4a;--sub:#6b7480;--line:#d9d2c4;--key:#fff;--hit:#f3d9d4;--accent:#2f6f8f}
 *{box-sizing:border-box}
@@ -35,12 +40,13 @@ h2 small{color:var(--sub);font-weight:400}
 .btn.ghost{background:#fff;color:var(--accent)}
 #answer{font-size:42px;margin:12px 0 0;min-height:48px;font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif}
 footer{color:var(--sub);font-size:12px;margin-top:22px;line-height:1.6}
+footer a{color:var(--accent)}
 </style>
 </head>
 <body>
 <main>
-  <h1>Kana Audio</h1>
-  <p class="lead">Recorded by a native Japanese speaker. Each sound plays the kana, then the picture word on your card.</p>
+  <h1>Hiragana &amp; Katakana Audio</h1>
+  <p class="lead">Hear every kana pronounced by a native Japanese speaker. Each sound plays the kana, then a picture word (for example, あ … あめ, “candy”). Free to use for practice.</p>
 
   <div class="seg" id="script" role="group" aria-label="Script">
     <button data-v="h" aria-pressed="true">Hiragana</button>
@@ -75,7 +81,7 @@ footer{color:var(--sub);font-size:12px;margin-top:22px;line-height:1.6}
   <h2>Combined sounds <small>33</small></h2>
   <div class="grid c3" id="g-yo"></div>
 
-  <footer>Tip: turn off silent mode on iPhone if you hear nothing.<br>Companion audio for YunoMonStudio kana flashcards.</footer>
+  <footer>Tip: turn off silent mode on iPhone if you hear nothing.<br>Companion audio for the watercolor kana flashcards by YunoMonStudio. The picture words match the cards. <a href="https://yunomonstudio.etsy.com" rel="noopener">See the printable cards on Etsy</a>.</footer>
 </main>
 <script>
 // [hiragana, katakana, romaji, file-id]  null = empty cell
